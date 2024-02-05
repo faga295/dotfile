@@ -92,6 +92,10 @@
       "commands": ["git.unstage"]
     },
     {
+      "before": ["<leader>", "g", "p"],
+      "commands": ["git.push"]
+    },
+    {
       "before": ["P"],
       "after": ["\"", "0", "p"]
     }
