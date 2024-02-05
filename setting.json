@@ -33,6 +33,10 @@
     {
       "before": ["H"],
       "after": ["^"]
+    },
+    {
+      "before": ["P"],
+      "after": ["\"", "0", "p"]
     }
   ],
   "vim.insertModeKeyBindings": [
@@ -86,6 +90,10 @@
     {
       "before": ["<leader>", "g", "u"],
       "commands": ["git.unstage"]
+    },
+    {
+      "before": ["P"],
+      "after": ["\"", "0", "p"]
     }
   ],
   "vim.useSystemClipboard": true,
