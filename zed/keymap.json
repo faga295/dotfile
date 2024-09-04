@@ -30,12 +30,12 @@
     }
   },
   {
-    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !menu",
     "bindings": {
       "L": "vim::EndOfLine",
       "H": "vim::StartOfLine",
-      "J": ["workspace::SendKeystrokes", "down down down down down"],
-      "K": ["workspace::SendKeystrokes", "up up up up up"]
+      "shift-j": ["workspace::SendKeystrokes", "5 down"],
+      "shift-k": ["workspace::SendKeystrokes", "5 up"]
     }
   },
   {
