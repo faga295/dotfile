@@ -39,6 +39,12 @@
     }
   },
   {
+    "context": "Search",
+    "bindings": {
+      "enter": "search::SelectNextMatch"
+    }
+  },
+  {
     "context": "Editor && vim_mode == insert && !VimWaiting",
     "bindings": {
       "j j": "vim::NormalBefore"
